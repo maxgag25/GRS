@@ -3,7 +3,7 @@
   "productName": "Impact Représentation",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/main.js",
+  "main": "./dist/src/main.js",
   "scripts": {
     "build": "tsc",
     "start": "npm run build && electron ."
