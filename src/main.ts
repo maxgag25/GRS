@@ -46,8 +46,3 @@ app.whenReady().then(() => {
       app.quit()
     }
   })
-
-// Expose the getUserData function to the renderer process
-contextBridge.exposeInMainWorld('api', {
-  getUserData,
-});

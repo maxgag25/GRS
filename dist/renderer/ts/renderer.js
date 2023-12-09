@@ -1,6 +1,5 @@
 "use strict";
 const documentFile = document.getElementById('file');
-console.log(api.test);
 function handleDocument(event) {
     const file = event.target.files[0];
     if (isExcelType(file)) {

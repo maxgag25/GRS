@@ -40,8 +40,4 @@ electron_1.app.on('window-all-closed', () => {
         electron_1.app.quit();
     }
 });
-// Expose the getUserData function to the renderer process
-electron_1.contextBridge.exposeInMainWorld('api', {
-    getUserData,
-});
 //# sourceMappingURL=main.js.map
