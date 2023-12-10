@@ -1,8 +1,8 @@
-
-import {app, BrowserWindow, contextBridge} from "electron"
+import {app, BrowserWindow, contentTracing, contextBridge, ipcMain} from "electron";
 
 const isDev = process.env.NODE_ENV !== 'production'
 const isMac = process.platform === 'darwin'
+
 
 const getUserData = () => {
   return {

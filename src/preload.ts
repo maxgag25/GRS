@@ -1,7 +1,5 @@
-const { contextBridge } = require('electron')
+const { contextBridge } = require('electron');
 
-const API = {
-    test: 'test'
-}
-
-contextBridge.exposeInMainWorld("api", API)
+contextBridge.exposeInMainWorld("api", {
+    test: 'contextBridge : toto michubichi la'
+});
